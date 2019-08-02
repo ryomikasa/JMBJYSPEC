@@ -54,13 +54,13 @@ Pod::Spec.new do |s|
         ss.libraries = ['icucore', 'c++', 'z']
     end
 
-    s.dependency "BJLiveBase", "~> 1.3.5"
+    s.dependency "BJLiveBase"
     s.dependency "BJLiveBase/Base"
     s.dependency "BJLiveBase/Ext"
     s.dependency "BJLiveBase/Networking"
     s.dependency "BJLiveBase/Networking+BaijiaYun"
-    s.dependency "BJLiveBase/PocketSocket/Client"
+    s.dependency "BJLiveBase/PocketSocket/Client","1.3.6"
     s.dependency "BJLiveBase/WebImage/AFNetworking"
-    s.dependency "BJLiveBase/YYModel"
+    s.dependency "BJLiveBase/YYModel","1.3.6"
 
 end
